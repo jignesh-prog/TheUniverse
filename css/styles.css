@@ -45,14 +45,16 @@ height: 500px;
 width: 100%;
 }
 h1 {
-    font-size: 25px;
+    font-size: 50px;
     height:5px;
     margin-bottom: 75px;
     margin-left: 60px;
 
 }
-h2{
+ .galaxy h2{
     margin-top: 100px;
+    margin-left:60px;
+    font-size: 35px;
 }
 
 img {
@@ -67,33 +69,52 @@ img:hover {
 
 .paragraph{
     display:grid;
-    justify-content: space-evenly;
+    justify-content: space-between;
     grid-template-columns: 50% 50%;
     height:300px;
 }
  .paragraph .p {
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:whitesmoke;
-    background-color:rgb(122, 88, 43);
+    color:rgba(202, 18, 18, 0.459);
+    font-weight: 500px;
   justify-content: space-between;
  }
 
  /* about.html*/
+ .about{
+background-color: rgba(187, 22, 209, 0.411);
+ }
+ .about h2{
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top:100px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom:0px;
+ }
  .a_paragraph {
-    font-size: 35px;
-    color: blanchedalmond;
+    font-size: 25px;
+    color: darkolivegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 50% 50%;
-    margin: 100px 55px 55px 55px;
+   
     padding:50px 25px;
-    background-color:greenyellow;
 }
+
 .a_paragraph:hover {
     color:black;
 
 }
  /*map.html*/
+ .map {
+    background-color: antiquewhite;
+ }
+ .table{
+    background-color: rgba(250, 215, 247, 0.425);
+ }
  table{
     position: absolute;
     right: 20px;
@@ -137,7 +158,7 @@ img:hover {
     }
     .header .navigation li{
         display: block;
-        height:15px;
+        height:25px;
         font-size:15px;
         margin-left: 25px;
         }
@@ -159,6 +180,18 @@ img:hover {
         height: 100px;
         width:100%;
     }
+    #figure {
+        display:block;
+        height:250px;
+        width:250px;
+        margin:0%;
+
+    }
+    .galaxy h2{
+        margin-top:1000px; 
+    }
+    
+    
         /*Responsive about.html*/ 
         .a_paragraph  {
             font-size: 15px;
